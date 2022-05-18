@@ -7,7 +7,7 @@ let soldier = {
   },
   supplies: 8,
   fire: function () {
-    --this.amo;
+ --this.amo;
     if (this.amo < 1) {
       return "обойма пуста перезаредитесь";
     }
@@ -28,3 +28,4 @@ let soldier = {
     }
   },
 };
+//  все проверил жиес ;)
